@@ -15,12 +15,15 @@
 # ---------------------------------------------------------------------------
 
 # Import arcpy module
+from io import open
+
 import arcpy
 import string
 import math
 import sys
 import os
 import traceback
+
 
 try:
 	#Script parameters:
